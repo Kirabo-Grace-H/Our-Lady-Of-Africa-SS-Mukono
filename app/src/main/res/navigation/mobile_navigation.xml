@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/home">
+
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.kotlin.ourladyofafricassmukono.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/aboutus"
+        android:name="com.kotlin.ourladyofafricassmukono.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/admission"
+        android:name="com.kotlin.ourladyofafricassmukono.AdmissionFragment"
+        android:label="Admission"
+        tools:layout="@layout/fragment_admission" />
+    <fragment
+        android:id="@+id/curriculum"
+        android:name="com.kotlin.ourladyofafricassmukono.CurriculumFragment"
+        android:label="Curriculum"
+        tools:layout="@layout/fragment_curriculum" />
+    <fragment
+        android:id="@+id/gallery"
+        android:name="com.kotlin.ourladyofafricassmukono.GalleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/perfomance"
+        android:name="com.kotlin.ourladyofafricassmukono.PerfomanceFragment"
+        android:label="Perfomance"
+        tools:layout="@layout/fragment_perfomance" />
+    <fragment
+        android:id="@+id/contact"
+        android:name="com.kotlin.ourladyofafricassmukono.ContactFragment"
+        android:label="Contact"
+        tools:layout="@layout/fragment_contact" />
+</navigation>

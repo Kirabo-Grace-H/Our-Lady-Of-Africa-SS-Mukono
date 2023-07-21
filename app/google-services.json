@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "560678878130",
+    "project_id": "our-lady-of-africa-ss-mukono",
+    "storage_bucket": "our-lady-of-africa-ss-mukono.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560678878130:android:fc21f4e8217aacc9d042ab",
+        "android_client_info": {
+          "package_name": "com.kotlin.ourladyofafricassmukono"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560678878130-4drm6ej5hmc15q7c6svplhnmkt2i40t7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJMUSWRS_VkqDgYp7GlzaUSbtG1yd3lt0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "560678878130-4drm6ej5hmc15q7c6svplhnmkt2i40t7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

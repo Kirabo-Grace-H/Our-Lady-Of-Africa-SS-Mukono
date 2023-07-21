@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="About Us" />
+
+
+    </group>
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/admission"
+                android:icon="@drawable/baseline_school_24"
+                android:title="Admission" />
+            <item
+                android:id="@+id/curriculum"
+                android:icon="@drawable/baseline_menu_book_24"
+                android:title="Curriculum" />
+
+            <item
+                android:id="@+id/gallery"
+                android:icon="@drawable/baseline_wallpaper_24"
+                android:title="Gallery" />
+            <item
+                android:id="@+id/perfomance"
+                android:icon="@drawable/baseline_grade_24"
+                android:title="Performace" />
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/baseline_contact_phone_24"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+</menu>

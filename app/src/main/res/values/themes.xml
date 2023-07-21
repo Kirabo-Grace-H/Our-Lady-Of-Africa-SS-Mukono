@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.OurLadyOfAfricaSSMukono" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+
+    <style name="Theme.OurLadyOfAfricaSSMukono" parent="Base.Theme.OurLadyOfAfricaSSMukono" />
+    <!--STYLE FOR SPLASH ONLY CUSTOM THEME FOR SPLASH SCREEN-->
+    <style name="splash_screen" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/blue</item>
+        <item name="android:navigationBarColor">@color/blue</item>
+        <item name="android:windowBackground">@drawable/splash</item>
+
+    </style>
+
+    <style name="splash_screen.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="splash_screen.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="splash_screen.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

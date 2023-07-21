@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/school"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="340dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:hint="Password"
+        android:drawableLeft="@drawable/lock"
+        android:background="@drawable/shapeback"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/btnlogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etemail"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="339dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:drawableLeft="@drawable/at"
+        android:ems="10"
+        android:hint="Email"
+        android:background="@drawable/shapeback"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/etpassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="241dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="@color/white"
+        android:onClick="signin"
+        android:text="LOGIN"
+        android:textColor="@color/blue"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnnewsignup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etpassword" />
+
+    <TextView
+        android:id="@+id/tvnoaccount"
+        android:layout_width="188dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="233dp"
+        android:layout_marginBottom="46dp"
+        android:text="Don't have an account?"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnnewsignup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnlogin"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnnewsignup"
+        android:layout_width="111dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="35dp"
+        android:backgroundTint="@color/white"
+        android:onClick="signuplogin"
+        android:text="SignUp"
+        android:textColor="@color/blue"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvnoaccount"
+        app:layout_constraintTop_toBottomOf="@+id/btnlogin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
